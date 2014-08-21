@@ -7,6 +7,17 @@
 /NEWS -text
 /README -text
 /TODO -text
+/apertium-fin-spa.fin-spa.dix -text
+/apertium-fin-spa.fin-spa.lrx -text
+/apertium-fin-spa.fin-spa.rlx -text
+/apertium-fin-spa.fin-spa.t1x -text svneol=unset#application/xml
+/apertium-fin-spa.fin-spa.t2x -text svneol=unset#application/xml
+/apertium-fin-spa.fin-spa.t3x -text svneol=unset#application/xml
+/apertium-fin-spa.spa-fin.lrx -text
+/apertium-fin-spa.spa-fin.rlx -text
+/apertium-fin-spa.spa-fin.t1x -text svneol=unset#application/xml
+/apertium-fin-spa.spa-fin.t2x -text svneol=unset#application/xml
+/apertium-fin-spa.spa-fin.t3x -text svneol=unset#application/xml
 /configure.ac -text
 /fin-spa.prob -text
 /modes.xml -text svneol=unset#application/xml
