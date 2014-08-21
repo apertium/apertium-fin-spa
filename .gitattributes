@@ -1,0 +1,15 @@
+* text=auto !eol
+/AUTHORS -text
+/COPYING -text
+/ChangeLog -text
+/INSTALL -text
+/Makefile.am -text
+/NEWS -text
+/README -text
+/TODO -text
+/configure.ac -text
+/fin-spa.prob -text
+/modes.xml -text svneol=unset#application/xml
+/spa-fin.prob -text
+texts/tarina.fin.txt -text
+texts/tarina.spa.txt -text
