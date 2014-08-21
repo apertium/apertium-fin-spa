@@ -203,7 +203,7 @@
     <e><p><l>talo<s n="n"/></l><r>casa<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>poika<s n="n"/></l><r>niño<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>vuosi<s n="n"/></l><r>año<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>tyttö<s n="n"/></l><r>niña<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>tyttö<s n="n"/></l><r>niño<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>sisko<s n="n"/></l><r>hermano<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>koira<s n="n"/></l><r>perro<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>kissa<s n="n"/></l><r>gato<s n="n"/><s n="m"/></r></p></e>
@@ -211,7 +211,7 @@
     <e><p><l>leikki<s n="n"/></l><r>juego<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>äiti<s n="n"/></l><r>madre<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>ikkuna<s n="n"/></l><r>ventana<s n="n"/><s n="f"/></r></p></e>
-    <e><p><l>puu<s n="n"/></l><r>arbol<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>puu<s n="n"/></l><r>árbol<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>käsi<s n="n"/></l><r>mano<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>silmä<s n="n"/></l><r>ojo<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>vastaus<s n="n"/></l><r>respuesta<s n="n"/><s n="f"/></r></p></e>
@@ -275,7 +275,7 @@
 
     <!-- adjectives -->
 
-    <e><p><l>hyvä<s n="adj"/></l><r>agradable<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>hyvä<s n="adj"/></l><r>agradable<s n="adj"/><s n="mf"/></r></p></e>
     <e><p><l>lämmin<s n="adj"/></l><r>cálido<s n="adj"/><s n="m"/></r></p></e>
     <e><p><l>kylmä<s n="adj"/></l><r>frío<s n="adj"/><s n="m"/></r></p></e>
     <e><p><l>iso<s n="adj"/></l><r>grande<s n="adj"/><s n="mf"/></r></p></e>

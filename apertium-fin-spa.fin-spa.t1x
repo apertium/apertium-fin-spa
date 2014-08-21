@@ -159,15 +159,16 @@
       <attr-item tags="np.ant.f"/>
       <attr-item tags="np.ant.m"/>
       <attr-item tags="prn"/>
-      <attr-item tags="prn.p1"/>
-      <attr-item tags="prn.p1.m"/>
-      <attr-item tags="prn.p1.f"/>
-      <attr-item tags="prn.p2"/>
-      <attr-item tags="prn.p3"/>
-      <attr-item tags="prn.p3.f"/>
-      <attr-item tags="prn.p3.nt"/>
-      <attr-item tags="prn.p3.ma"/>
-      <attr-item tags="prn.p3.mf"/>
+      <attr-item tags="prn.itg"/>
+      <attr-item tags="prn.itg.mf"/>
+      <attr-item tags="prn.tn.p1"/>
+      <attr-item tags="prn.tn.p1.m"/>
+      <attr-item tags="prn.tn.p1.f"/>
+      <attr-item tags="prn.tn.p2"/>
+      <attr-item tags="prn.tn.p3"/>
+      <attr-item tags="prn.tn.p3.f"/>
+      <attr-item tags="prn.tn.p3.m"/>
+      <attr-item tags="prn.tn.p3.mf"/>
     </def-attr>
     <def-attr n="a_gender">
       <attr-item tags="nt"/>
@@ -175,23 +176,13 @@
     </def-attr>
     <def-attr n="a_adj">
       <attr-item tags="adj"/>
-      <attr-item tags="adj.sint"/>
-      <attr-item tags="adj.sint.m"/>
-      <attr-item tags="adj.sint.f"/>
-      <attr-item tags="adj.sint.nt"/>
       <attr-item tags="adj.m"/>
       <attr-item tags="adj.f"/>
-      <attr-item tags="adj.nt"/>
-    </def-attr>
-    <def-attr n="a_prn">
-      <attr-item tags="prn.pers"/>
-      <attr-item tags="prn.dem"/>
+      <attr-item tags="adj.mf"/>
     </def-attr>
     <def-attr n="a_num">
       <attr-item tags="num"/>
-      <attr-item tags="num.un"/>
-      <attr-item tags="num.un.sg"/>
-      <attr-item tags="num.un.pl"/>
+      <attr-item tags="num.mf"/>
     </def-attr>
     <def-attr n="a_nbr">
       <attr-item tags="sp"/>
@@ -205,7 +196,7 @@
     </def-attr>
     <def-attr n="a_gen">
       <attr-item tags="m"/>
-      <attr-item tags="nt"/>
+      <attr-item tags="mf"/>
       <attr-item tags="f"/>
     </def-attr>
     <def-attr n="a_cas">
@@ -236,7 +227,7 @@
         <attr-item tags="px3sp"/>
     </def-attr>
     <def-attr n="a_neg">
-        <attr-item tags="part.neg"/>
+        <attr-item tags="adv"/>
     </def-attr>
     <def-attr n="synfunc">
       <attr-item tags="CLB"/>
@@ -331,6 +322,13 @@
 
               <let><clip pos="1" side="tl" part="moodtense"/><lit-tag v="pri"/></let>
             </when>
+            <when>
+              <test>
+                <equal><clip pos="1" side="sl" part="moodtense"/><lit-tag v="past"/></equal>
+              </test>
+
+              <let><clip pos="1" side="tl" part="moodtense"/><lit-tag v="ifi"/></let>
+            </when>
         </choose>
     </def-macro>
 
@@ -346,7 +344,7 @@
                 <equal><clip pos="1" side="sl" part="a_cas"/><lit-tag v="abl"/></equal>
                 <equal><clip pos="1" side="sl" part="a_cas"/><lit-tag v="all"/></equal>
             </or></test>
-              <let><clip pos="1" side="tl" part="a_cas"/><lit-tag v="nom"/></let>
+              <let><clip pos="1" side="tl" part="a_cas"/><lit-tag v=""/></let>
               <let><var n="sntype"/><lit-tag v="SN"/></let>
           </when>
           <when>
@@ -358,7 +356,7 @@
                 <equal><clip pos="1" side="sl" part="a_cas"/><lit-tag v="ess"/></equal>
         </or></test>
 
-              <let><clip pos="1" side="tl" part="a_cas"/><lit-tag v="nom"/></let>
+              <let><clip pos="1" side="tl" part="a_cas"/><lit-tag v=""/></let>
               <let><var n="sntype"/><lit-tag v="SN"/></let>
             </when>
         </choose>
@@ -413,10 +411,11 @@
           <chunk name="pron" case="caseFirstWord">
             <tags>
               <tag><lit-tag v="SN"/></tag>
-              <tag><clip pos="1" side="sl" part="a_cas"/></tag>
             </tags>
             <lu>
-              <clip pos="1" side="tl" part="whole"/>
+              <clip pos="1" side="tl" part="lem"/>
+              <clip pos="1" side="tl" part="a_nom"/>
+              <clip pos="1" side="tl" part="a_nbr"/>
             </lu>
           </chunk>
         </out>
@@ -699,6 +698,7 @@
             <lu>
               <clip pos="1" side="tl" part="lem"/>
               <clip pos="1" side="tl" part="a_num"/>
+              <clip pos="1" side="tl" part="a_nbr"/>
             </lu>
           </chunk>
         </out>
@@ -724,6 +724,7 @@
             <lu>
               <clip pos="1" side="tl" part="lem"/>
               <clip pos="1" side="tl" part="a_num"/>
+              <clip pos="1" side="tl" part="a_nbr"/>
             </lu>
             <b pos="1"/>
             <lu>
