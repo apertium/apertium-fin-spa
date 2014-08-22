@@ -224,6 +224,12 @@
     <e><p><l>eläin<s n="n"/></l><r>animal<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>pää<s n="n"/></l><r>cabeza<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>vesi<s n="n"/></l><r>agua<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>meno<s n="n"/></l><r>curso<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>piilo<s n="n"/></l><r>guarida<s n="n"/><s n="f"/></r></p></e>
+    <e c="tarina.txt"><p><l>mari<s n="n"/></l><r>María<s n="np"/><s n="f"/></r></p></e>
+    <e><p><l>mari<s n="n"/></l><r>marihuana<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>laskeminen<s n="n"/></l><r>cuenta<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>taka<s n="n"/></l><r>revés<s n="n"/><s n="m"/></r></p></e>
     
 
     <!-- verbs-->
@@ -254,7 +260,6 @@
     <e><p><l>laskea<s n="vblex"/></l><r>contar<s n="vblex"/></r></p></e>
     <e><p><l>tehdä<s n="vblex"/></l><r>hacer<s n="vblex"/></r></p></e>
     <e><p><l>lopettaa<s n="vblex"/></l><r>terminar<s n="vblex"/></r></p></e>
-    <e><p><l>laskea<s n="vblex"/></l><r>contar<s n="vblex"/></r></p></e>
     <e><p><l>etsiä<s n="vblex"/></l><r>buscar<s n="vblex"/></r></p></e>
     <e><p><l>mennä<s n="vblex"/></l><r>ir<s n="vblex"/></r></p></e>
     <e><p><l>kysyä<s n="vblex"/></l><r>preguntar<s n="vblex"/></r></p></e>
@@ -272,6 +277,7 @@
     <e><p><l>sanoa<s n="vblex"/></l><r>decir<s n="vblex"/></r></p></e>
     <e><p><l>syödä<s n="vblex"/></l><r>comer<s n="vblex"/></r></p></e>
     <e><p><l>juoda<s n="vblex"/></l><r>tomar<s n="vblex"/></r></p></e>
+    <e><p><l>taata<s n="vblex"/></l><r>garantizar<s n="vblex"/></r></p></e>
 
     <!-- adjectives -->
 
@@ -282,11 +288,14 @@
     <e><p><l>pieni<s n="adj"/></l><r>pequeño<s n="adj"/><s n="m"/></r></p></e>
     <e><p><l>iloinen<s n="adj"/></l><r>feliz<s n="adj"/><s n="mf"/></r></p></e>
     <e><p><l>vanha<s n="adj"/></l><r>viejo<s n="adj"/><s n="m"/></r></p></e>
+    <e><p><l>hauska<s n="adj"/></l><r>placentero<s n="adj"/><s n="m"/></r></p></e>
+    <e><p><l>lopettanut<s n="adj"/></l><r>terminado<s n="adj"/><s n="m"/></r></p></e>
+    <e><p><l>vähä<s n="adj"/></l><r>poco<s n="adj"/><s n="m"/></r></p></e>
 
     <!-- adpositions -->
 
-    <e><p><l>edessä<s n="pr"/></l><r>frente<s n="n"/></r></p></e>
-    <e><p><l>edessä<s n="post"/></l><r>frente<s n="n"/></r></p></e>
+    <e><p><l>edessä<s n="pr"/></l><r>delante<s n="adv"/></r></p></e>
+    <e><p><l>edessä<s n="post"/></l><r>delante<s n="adv"/></r></p></e>
     <e><p><l>kanssa<s n="pr"/></l><r>con<s n="pr"/></r></p></e>
     <e><p><l>kanssa<s n="post"/></l><r>con<s n="pr"/></r></p></e>
     <e><p><l>ulos<s n="pr"/></l><r>por<s n="pr"/></r></p></e>
@@ -295,6 +304,12 @@
     <e><p><l>luokse<s n="post"/></l><r>hacia<s n="pr"/></r></p></e>
     <e><p><l>alle<s n="pr"/></l><r>bajo<s n="pr"/></r></p></e>
     <e><p><l>alle<s n="post"/></l><r>bajo<s n="pr"/></r></p></e>
+    <e><p><l>ympärille<s n="post"/></l><r>alrededor<s n="adv"/></r></p></e>
+    <e><p><l>ympärille<s n="pr"/></l><r>cerca<s n="adv"/></r></p></e>
+    <e><p><l>ympärille<s n="pr"/></l><r>alrededor<s n="adv"/></r></p></e>
+    <e><p><l>ympärille<s n="post"/></l><r>cerca<s n="adv"/></r></p></e>
+    <e><p><l>läpi<s n="post"/></l><r>a<b/>través<s n="adv"/></r></p></e>
+    <e><p><l>läpi<s n="pr"/></l><r>a<b/>través<s n="adv"/></r></p></e>
 
     <!-- conjunctions -->
 
@@ -310,12 +325,9 @@
 
     <e><p><l>missä<s n="adv"/></l><r>dónde<s n="adv"/><s n="itg"/></r></p></e>
     <e><p><l>minne<s n="adv"/></l><r>dónde<s n="adv"/><s n="itg"/></r></p></e>
-    <e><p><l>miksi<s n="adv"/></l><r>qué<s n="prn"/><s n="itg"/><s n="mf"/><s n="sg"/></r></p></e>
-    <e><p><l>miksi<s n="prn"/></l><r>qué<s n="prn"/><s n="itg"/><s n="mf"/><s n="sg"/></r></p></e>
+    <e><p><l>miksi<s n="adv"/></l><r>porqué<s n="cnjadv"/></r></p></e>
     <e><p><l>mikään<s n="adv"/></l><r>nada<s n="adv"/></r></p></e>
-    <!--
-    <e><p><l>mitä<s n="adv"/></l><r>što<s n="prn"/></r></p></e>
-    -->
+    <e><p><l>mitä<s n="adv"/></l><r>qué<s n="adv"/></r></p></e>
 
     <e><p><l>erittäin<s n="adv"/></l><r>mucho<s n="adv"/></r></p></e>
     <e><p><l>tänään<s n="adv"/></l><r>hoy<s n="adv"/></r></p></e>
@@ -333,7 +345,6 @@
     <e><p><l>hyvin<s n="adv"/></l><r>muy<s n="preadv"/></r></p></e>
     <e><p><l>nopeasti<s n="adv"/></l><r>rápidamente<s n="adv"/></r></p></e>
     <e><p><l>lähellä<s n="adv"/></l><r>cerca<s n="adv"/></r></p></e>
-    <e><p><l>ympärille<s n="adv"/></l><r>alrededor<s n="adv"/></r></p></e>
     <e><p><l>koskaan<s n="adv"/></l><r>nunca<s n="adv"/></r></p></e>
     <e><p><l>todennäköisesti<s n="adv"/></l><r>probablemente<s n="adv"/></r></p></e>
     <e><p><l>hitaasti<s n="adv"/></l><r>lentamente<s n="adv"/></r></p></e>
@@ -342,6 +353,16 @@
     <e><p><l>sitten<s n="adv"/></l><r>luego<s n="adv"/></r></p></e>
     <e><p><l>kovasti<s n="adv"/></l><r>mucho<s n="adv"/></r></p></e>
     <e><p><l>silloin<s n="adv"/></l><r>entonces<s n="adv"/></r></p></e>
+    <e><p><l>niin<s n="adv"/></l><r>así<s n="adv"/></r></p></e>
+    <e><p><l>entä<s n="adv"/></l><r>y<s n="cnjcoo"/></r></p></e>
+    <e><p><l>ympärille<s n="adv"/></l><r>alrededor<s n="adv"/></r></p></e>
+    <e><p><l>ympärille<s n="adv"/></l><r>cerca<s n="adv"/></r></p></e>
+    <e><p><l>tietenkään<s n="adv"/></l><r>claro<s n="adv"/></r></p></e>
+    <e><p><l>kaikkialle<s n="adv"/></l><r>por<b/>todas<b/>partes<s n="adv"/></r></p></e>
+    <e><p><l>taas<s n="adv"/></l><r>otra<b/>vez<s n="adv"/></r></p></e>
+    <e><p><l>huolellisesti<s n="adv"/></l><r>cuidadosamente<s n="adv"/></r></p></e>
+    <e><p><l>lähemmäksi<s n="adv"/></l><r>mas<b/>cerca<s n="adv"/></r></p></e>
+    <e><p><l>aika<s n="adv"/></l><r>vez<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
 
     <!-- interjections -->
 
@@ -352,6 +373,10 @@
 
     <e><p><l>jokin<s n="prn"/></l><r>algo<s n="prn"/><s n="tn"/><s n="nt"/></r></p></e>
     <e><p><l>molemmat<s n="prn"/></l><r>ambos<s n="prn"/><s n="tn"/><s n="nt"/></r></p></e>
+    <e><p><l>mikään<s n="prn"/></l><r>nada<s n="prn"/><s n="tn"/><s n="nt"/></r></p></e>
+    <e><p><l>miksi<s n="prn"/></l><r>qué<s n="prn"/><s n="itg"/><s n="mf"/><s n="sg"/></r></p></e>
+    <e><p><l>muu<s n="prn"/></l><r>otro<s n="prn"/><s n="tn"/><s n="f"/></r></p></e>
+    <e><p><l>muu<s n="prn"/></l><r>otro<s n="prn"/><s n="tn"/><s n="m"/></r></p></e>
 
     <!-- persons -->
 
@@ -364,6 +389,8 @@
 
     <!-- demon -->
 
+    <e><p><l>se<s n="prn"/><s n="dem"/></l><r>ello<s n="prn"/><s n="tn"/><s n="p3"/><s n="nt"/></r></p></e>
+    <e><p><l>ne<s n="prn"/><s n="dem"/></l><r>ello<s n="prn"/><s n="tn"/><s n="p3"/><s n="nt"/></r></p></e>
     <e><p><l>nämä<s n="prn"/></l><r>este<s n="prn"/><s n="tn"/><s n="m"/></r></p></e>
     <e><p><l>nämä<s n="prn"/></l><r>este<s n="prn"/><s n="tn"/><s n="f"/></r></p></e>
 
@@ -372,7 +399,7 @@
 
     <!-- translating clitics into words kind of works -->
 
-
+    <e><p><l>pa<s n="enc"/></l><r>efectivamente<s n="adv"/></r></p></e>
     
 <!-- Раздел: Имя Существительное -->
 
