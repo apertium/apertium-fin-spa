@@ -11,6 +11,8 @@
     <def-cat n="conneg"> <!-- tietää vblex.actv.pres.conneg -->
       <cat-item tags="vblex.*.*.conneg"/>
       <cat-item tags="vblex.*.*.conneg.*"/>
+      <cat-item tags="vaux.*.*.conneg"/>
+      <cat-item tags="vaux.*.*.conneg.*"/>
     </def-cat>
     <def-cat n="cop-conneg">
       <cat-item lemma="olla" tags="*.*.*.conneg"/>
@@ -137,6 +139,7 @@
       <attr-item tags="past"/>
       <attr-item tags="pres"/>
       <attr-item tags="pri"/>
+      <attr-item tags="ifi"/>
       <attr-item tags="cond"/>
       <attr-item tags="imp"/>
       <attr-item tags="pot"/>
@@ -877,9 +880,9 @@
           <with-param pos="2"/>
         </call-macro>
         <out>
-          <chunk name="negv">
+          <chunk name="negvp">
             <tags>
-              <tag><lit-tag v="NEGV"/></tag>
+              <tag><lit-tag v="NEGVP"/></tag>
             </tags>
               <lu>
                 <clip pos="1" side="tl" part="lemh"/> <!-- ei → no -->
