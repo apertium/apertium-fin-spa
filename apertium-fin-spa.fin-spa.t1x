@@ -37,8 +37,10 @@
         <cat-item lemma="täytyä" tags="vaux.*"/>
     </def-cat>
     <def-cat n="gen-subj">
-        <cat-item tags="*.*.gen"/>
-        <cat-item tags="*.*.*.*.*.gen"/>
+        <cat-item tags="n.*.gen"/>
+        <cat-item tags="prn.*.*.*.*.gen"/>
+        <cat-item tags="prn.*.gen"/>
+        <cat-item tags="np.*.*.*.*.gen"/>
     </def-cat>
     <def-cat n="adv-misc">
         <cat-item tags="adv.*"/>
