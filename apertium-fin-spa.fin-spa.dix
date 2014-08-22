@@ -226,7 +226,7 @@
     <e><p><l>vesi<s n="n"/></l><r>agua<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>meno<s n="n"/></l><r>curso<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>piilo<s n="n"/></l><r>guarida<s n="n"/><s n="f"/></r></p></e>
-    <e c="tarina.txt"><p><l>mari<s n="n"/></l><r>María<s n="np"/><s n="f"/></r></p></e>
+    <e c="tarina.txt"><p><l>mari<s n="n"/></l><r>María<s n="np"/><s n="ant"/></r></p></e>
     <e><p><l>mari<s n="n"/></l><r>marihuana<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>laskeminen<s n="n"/></l><r>cuenta<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>taka<s n="n"/></l><r>revés<s n="n"/><s n="m"/></r></p></e>
@@ -327,9 +327,9 @@
     <e><p><l>minne<s n="adv"/></l><r>dónde<s n="adv"/><s n="itg"/></r></p></e>
     <e><p><l>miksi<s n="adv"/></l><r>porqué<s n="cnjadv"/></r></p></e>
     <e><p><l>mikään<s n="adv"/></l><r>nada<s n="adv"/></r></p></e>
-    <e><p><l>mitä<s n="adv"/></l><r>qué<s n="adv"/></r></p></e>
+    <e><p><l>mitä<s n="adv"/></l><r>qué<s n="prn"/><s n="itg"/><s n="mf"/><s n="sg"/></r></p></e>
 
-    <e><p><l>erittäin<s n="adv"/></l><r>mucho<s n="adv"/></r></p></e>
+    <e><p><l>erittäin<s n="adv"/></l><r>muy<s n="preadv"/></r></p></e>
     <e><p><l>tänään<s n="adv"/></l><r>hoy<s n="adv"/></r></p></e>
     <e><p><l>eilen<s n="adv"/></l><r>ayer<s n="adv"/></r></p></e>
     <e><p><l>ulkona<s n="adv"/></l><r>afuera<s n="adv"/></r></p></e>
@@ -339,8 +339,7 @@
     <e><p><l>edessä<s n="adv"/></l><r>frente<s n="n"/><s n="mf"/><s n="sg"/></r></p></e>
     <e><p><l>myös<s n="adv"/></l><r>también<s n="adv"/></r></p></e>
     <e><p><l>nyt<s n="adv"/></l><r>ahora<s n="adv"/></r></p></e>
-    <e><p><l>yhdessä<s n="adv"/></l><r>junto<s n="adv"/></r></p></e>
-    <e><p><l>kahden<s n="adv"/></l><r>junto<s n="adv"/></r></p></e>
+    <e><p><l>kahden<s n="adv"/></l><r>junto<s n="adj"/><s n="m"/><s n="pl"/></r></p></e>
     <e><p><l>hyvin<s n="adv"/></l><r>bien<s n="preadv"/></r></p></e>
     <e><p><l>hyvin<s n="adv"/></l><r>muy<s n="preadv"/></r></p></e>
     <e><p><l>nopeasti<s n="adv"/></l><r>rápidamente<s n="adv"/></r></p></e>
@@ -373,7 +372,7 @@
 
     <e><p><l>jokin<s n="prn"/></l><r>algo<s n="prn"/><s n="tn"/><s n="nt"/></r></p></e>
     <e><p><l>molemmat<s n="prn"/></l><r>ambos<s n="prn"/><s n="tn"/><s n="nt"/></r></p></e>
-    <e><p><l>mikään<s n="prn"/></l><r>nada<s n="prn"/><s n="tn"/><s n="nt"/></r></p></e>
+    <e><p><l>mikään<s n="prn"/><s n="sg"/></l><r>nada<s n="prn"/><s n="tn"/><s n="nt"/></r></p></e>
     <e><p><l>miksi<s n="prn"/></l><r>qué<s n="prn"/><s n="itg"/><s n="mf"/><s n="sg"/></r></p></e>
     <e><p><l>muu<s n="prn"/></l><r>otro<s n="prn"/><s n="tn"/><s n="f"/></r></p></e>
     <e><p><l>muu<s n="prn"/></l><r>otro<s n="prn"/><s n="tn"/><s n="m"/></r></p></e>
@@ -389,8 +388,9 @@
 
     <!-- demon -->
 
-    <e><p><l>se<s n="prn"/><s n="dem"/></l><r>ello<s n="prn"/><s n="tn"/><s n="p3"/><s n="nt"/></r></p></e>
-    <e><p><l>ne<s n="prn"/><s n="dem"/></l><r>ello<s n="prn"/><s n="tn"/><s n="p3"/><s n="nt"/></r></p></e>
+    <e><p><l>se<s n="prn"/><s n="dem"/><s n="sg"/></l><r>ello<s n="prn"/><s n="tn"/><s n="p3"/><s n="nt"/></r></p></e>
+    <e><p><l>ne<s n="prn"/><s n="dem"/></l><r>ese<s n="prn"/><s n="tn"/><s n="m"/></r></p></e>
+    <e><p><l>ne<s n="prn"/><s n="dem"/></l><r>ese<s n="prn"/><s n="tn"/><s n="f"/></r></p></e>
     <e><p><l>nämä<s n="prn"/></l><r>este<s n="prn"/><s n="tn"/><s n="m"/></r></p></e>
     <e><p><l>nämä<s n="prn"/></l><r>este<s n="prn"/><s n="tn"/><s n="f"/></r></p></e>
 

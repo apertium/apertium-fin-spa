@@ -167,6 +167,7 @@
       <attr-item tags="prn.itg"/>
       <attr-item tags="prn.itg.mf"/>
       <attr-item tags="prn.tn"/>
+      <attr-item tags="prn.tn.nt"/>
       <attr-item tags="prn.tn.m"/>
       <attr-item tags="prn.tn.f"/>
       <attr-item tags="prn.tn.p1"/>
@@ -178,10 +179,7 @@
       <attr-item tags="prn.tn.p3.f"/>
       <attr-item tags="prn.tn.p3.m"/>
       <attr-item tags="prn.tn.p3.mf"/>
-    </def-attr>
-    <def-attr n="a_gender">
-      <attr-item tags="nt"/>
-      <attr-item tags="ut"/>
+      <attr-item tags="prn.tn.p3.nt"/>
     </def-attr>
     <def-attr n="a_adj">
       <attr-item tags="adj"/>
@@ -477,7 +475,6 @@
                 <clip pos="1" side="tl" part="lem"/>
                 <clip pos="1" side="tl" part="a_nom"/>
                 <clip pos="1" side="tl" part="a_nbr"/>
-                <lit-tag v="nom"/>
             </lu>
             <b pos="1"/>
             <lu>
