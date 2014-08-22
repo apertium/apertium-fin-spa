@@ -216,7 +216,7 @@
     <e><p><l>silmä<s n="n"/></l><r>ojo<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>vastaus<s n="n"/></l><r>respuesta<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>kysymys<s n="n"/></l><r>pregunta<s n="n"/><s n="f"/></r></p></e>
-    <e><p><l>ihminen<s n="n"/></l><r>gent<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>ihminen<s n="n"/></l><r>gente<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>pöytä<s n="n"/></l><r>mesa<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>tuoli<s n="n"/></l><r>silla<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>ääni<s n="n"/></l><r>ruido<s n="n"/><s n="m"/></r></p></e>
@@ -266,7 +266,7 @@
     <e><p><l>vastata<s n="vblex"/></l><r>contestar<s n="vblex"/></r></p></e>
     <e><p><l>kävellä<s n="vblex"/></l><r>caminar<s n="vblex"/></r></p></e>
     <e><p><l>löytää<s n="vblex"/></l><r>encontrar<s n="vblex"/></r></p></e>
-    <e><p><l>kuulla<s n="vblex"/></l><r>oíf<s n="vblex"/></r></p></e>
+    <e><p><l>kuulla<s n="vblex"/></l><r>oír<s n="vblex"/></r></p></e>
     <e><p><l>tulla<s n="vblex"/></l><r>venir<s n="vblex"/></r></p></e>
     <e><p><l>kuunnella<s n="vblex"/></l><r>escuchar<s n="vblex"/></r></p></e>
     <e><p><l>sanoa<s n="vblex"/></l><r>decir<s n="vblex"/></r></p></e>
@@ -299,6 +299,7 @@
     <!-- conjunctions -->
 
     <e><p><l>ja<s n="cnjcoo"/></l><r>y<s n="cnjcoo"/></r></p></e>
+    <e><p><l>tai<s n="cnjcoo"/></l><r>o<s n="cnjcoo"/></r></p></e>
     <e><p><l>mutta<s n="cnjcoo"/></l><r>pero<s n="cnjcoo"/></r></p></e>
     <e><p><l>kun<s n="cnjsub"/></l><r>cuando<s n="rel"/><s n="adv"/></r></p></e>
     <e><p><l>että<s n="cnjsub"/></l><r>que<s n="cnjsub"/></r></p></e>
@@ -326,7 +327,8 @@
     <e><p><l>edessä<s n="adv"/></l><r>frente<s n="n"/><s n="mf"/><s n="sg"/></r></p></e>
     <e><p><l>myös<s n="adv"/></l><r>también<s n="adv"/></r></p></e>
     <e><p><l>nyt<s n="adv"/></l><r>ahora<s n="adv"/></r></p></e>
-    <e><p><l>yhdessä<s n="adv"/></l><r>siempre<s n="adv"/></r></p></e>
+    <e><p><l>yhdessä<s n="adv"/></l><r>junto<s n="adv"/></r></p></e>
+    <e><p><l>kahden<s n="adv"/></l><r>junto<s n="adv"/></r></p></e>
     <e><p><l>hyvin<s n="adv"/></l><r>bien<s n="preadv"/></r></p></e>
     <e><p><l>hyvin<s n="adv"/></l><r>muy<s n="preadv"/></r></p></e>
     <e><p><l>nopeasti<s n="adv"/></l><r>rápidamente<s n="adv"/></r></p></e>
@@ -346,8 +348,8 @@
     <!-- all sorts of stuff -->
 
 
-    <!--
-    -->
+    <e><p><l>jokin<s n="prn"/></l><r>algo<s n="prn"/><s n="tn"/><s n="nt"/></r></p></e>
+    <e><p><l>molemmat<s n="prn"/></l><r>ambos<s n="prn"/><s n="tn"/><s n="nt"/></r></p></e>
 
     <!-- persons -->
 
@@ -360,8 +362,8 @@
 
     <!-- demon -->
 
-    <e><p><l>jokin<s n="prn"/></l><r>algo<s n="prn"/><s n="tn"/><s n="nt"/></r></p></e>
-    <e><p><l>molemmat<s n="prn"/></l><r>ambos<s n="prn"/><s n="tn"/><s n="nt"/></r></p></e>
+    <e><p><l>nämä<s n="prn"/></l><r>este<s n="prn"/><s n="tn"/><s n="m"/></r></p></e>
+    <e><p><l>nämä<s n="prn"/></l><r>este<s n="prn"/><s n="tn"/><s n="f"/></r></p></e>
 
     <!-- interrogation -->
     

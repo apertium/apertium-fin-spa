@@ -161,10 +161,14 @@
       <attr-item tags="prn"/>
       <attr-item tags="prn.itg"/>
       <attr-item tags="prn.itg.mf"/>
+      <attr-item tags="prn.tn"/>
+      <attr-item tags="prn.tn.m"/>
+      <attr-item tags="prn.tn.f"/>
       <attr-item tags="prn.tn.p1"/>
       <attr-item tags="prn.tn.p1.m"/>
       <attr-item tags="prn.tn.p1.f"/>
       <attr-item tags="prn.tn.p2"/>
+      <attr-item tags="prn.tn.p2.mf"/>
       <attr-item tags="prn.tn.p3"/>
       <attr-item tags="prn.tn.p3.f"/>
       <attr-item tags="prn.tn.p3.m"/>
@@ -676,7 +680,6 @@
             <clip pos="1" side="tl" part="lem"/> <!-- know --> 
             <clip pos="1" side="tl" part="a_verb"/> <!-- vblex -->
             <clip pos="1" side="tl" part="moodtense"/> <!-- pres -->
-            <clip pos="1" side="tl" part="voice"/> <!-- vblex -->
             <clip pos="1" side="sl" part="person"/>
             <clip pos="1" side="sl" part="a_nbr"/>
           </lu>
@@ -802,7 +805,6 @@
                 <lit v=""/>
                 <lit-tag v="vaux"/>
                 <clip pos="2" side="tl" part="moodtense"/>
-                <clip pos="2" side="tl" part="voice"/>
             </lu>
           </chunk>
         </out>
@@ -865,7 +867,38 @@
       </action>
     </rule>
 
-    <rule comment="sääntö: negatiivinen verbi">
+    <rule comment="sääntö: negaatio verbissä">
+      <pattern>
+        <pattern-item n="neg-verb"/>
+        <pattern-item n="conneg"/>
+      </pattern>
+      <action>
+        <call-macro n="mood-handler1"> 
+          <with-param pos="2"/>
+        </call-macro>
+        <out>
+          <chunk name="negv">
+            <tags>
+              <tag><lit-tag v="NEGV"/></tag>
+            </tags>
+              <lu>
+                <clip pos="1" side="tl" part="lemh"/> <!-- ei → no -->
+                <clip pos="1" side="tl" part="a_neg"/> <!-- vbneg ← adv -->
+            </lu>
+            <b pos="1"/>
+              <lu>
+                  <clip pos="2" side="tl" part="lemh"/> <!-- ole -->
+                  <clip pos="2" side="tl" part="a_verb"/> <!-- vblex -->
+                  <clip pos="2" side="tl" part="moodtense"/> <!-- pri -->
+                  <clip pos="1" side="tl" part="a_pers"/> <!-- p1 -->
+                  <clip pos="1" side="tl" part="a_nbr"/> <!-- sg -->
+              </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+    
+    <rule comment="sääntö: eksynyt negaatioverbo">
       <pattern>
         <pattern-item n="neg-verb"/>
       </pattern>
@@ -876,14 +909,13 @@
               <tag><lit-tag v="NEGV"/></tag>
             </tags>
               <lu>
-                <clip pos="1" side="tl" part="lemh"/>
-                <clip pos="1" side="tl" part="a_neg"/>
+                <clip pos="1" side="tl" part="lemh"/> <!-- ei → no -->
+                <clip pos="1" side="tl" part="a_neg"/> <!-- vbneg ← adv -->
               </lu>
           </chunk>
         </out>
       </action>
     </rule>
-
  
     <rule comment="REGLA: SENT">
       <pattern>
