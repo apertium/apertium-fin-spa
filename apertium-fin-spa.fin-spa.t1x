@@ -8,7 +8,7 @@
       <cat-item lemma="ei" tags="vblex.neg.actv.p3.sg.@\+FAUXV"/>
     </def-cat>
 
-    <def-cat n="conneg"> <!-- tietää vblex.actv.pres.conneg -->
+    <def-cat n="conneg"> <!-- tietää vblex.actv.pri.conneg -->
       <cat-item tags="vblex.*.*.conneg"/>
       <cat-item tags="vblex.*.*.conneg.*"/>
       <cat-item tags="vaux.*.*.conneg"/>
@@ -95,6 +95,9 @@
       <cat-item tags="vblex.*.cond.*"/>
       <cat-item tags="vblex.*.imp.*"/>
       <cat-item tags="vblex.*.pot.*"/>
+      <cat-item tags="vbser.*.cond.*"/>
+      <cat-item tags="vbser.*.imp.*"/>
+      <cat-item tags="vbser.*.pot.*"/>
       <cat-item tags="vaux.*.cond.*"/>
       <cat-item tags="vaux.*.imp.*"/>
       <cat-item tags="vaux.*.pot.*"/>
@@ -113,8 +116,9 @@
     <def-cat n="verb-past">
         <cat-item tags="vblex.*.past.*"/>
     </def-cat>
-    <def-cat n="verb-pres">
-        <cat-item tags="vblex.*.pres.*"/>
+    <def-cat n="verb-pri">
+        <cat-item tags="vblex.*.pri.*"/>
+        <cat-item tags="vbser.*.pri.*"/>
     </def-cat>
     <def-cat n="vbolla">
         <cat-item lemma="olla" tags="vblex.*"/>
@@ -139,7 +143,7 @@
     </def-attr>
     <def-attr n="moodtense">
       <attr-item tags="past"/>
-      <attr-item tags="pres"/>
+      <attr-item tags="pri"/>
       <attr-item tags="pri"/>
       <attr-item tags="ifi"/>
       <attr-item tags="cond"/>
@@ -322,7 +326,7 @@
           <choose>
             <when>
               <test><or> 
-                <equal><clip pos="1" side="sl" part="moodtense"/><lit-tag v="pres"/></equal>
+                <equal><clip pos="1" side="sl" part="moodtense"/><lit-tag v="pri"/></equal>
                 <equal><clip pos="1" side="sl" part="moodtense"/><lit-tag v="cond"/></equal>
                 <equal><clip pos="1" side="sl" part="moodtense"/><lit-tag v="pot"/></equal>
         </or></test>
@@ -564,9 +568,9 @@
           <lu>
             <clip pos="2" side="tl" part="lem"/> <!-- know --> 
             <clip pos="2" side="tl" part="a_verb"/> <!-- vblex -->
-            <clip pos="1" side="tl" part="moodtense"/> <!-- pres -->
-            <clip pos="1" side="tl" part="a_pers"/> <!-- pres -->
-            <clip pos="1" side="tl" part="a_nbr"/> <!-- pres -->
+            <clip pos="1" side="tl" part="moodtense"/> <!-- pri -->
+            <clip pos="1" side="tl" part="a_pers"/> <!-- pri -->
+            <clip pos="1" side="tl" part="a_nbr"/> <!-- pri -->
             <clip pos="2" side="tl" part="lemq"/>
           </lu>
           </chunk>
@@ -638,9 +642,9 @@
       </action>
     </rule>
 
-    <rule comment="REGLA: verb-pres">
+    <rule comment="REGLA: verb-pri">
       <pattern>
-         <pattern-item n="verb-pres"/>
+         <pattern-item n="verb-pri"/>
       </pattern>
       <action>
         <call-macro n="mood-handler1"> 
@@ -655,7 +659,7 @@
           <lu>
             <clip pos="1" side="tl" part="lem"/> <!-- know --> 
             <clip pos="1" side="tl" part="a_verb"/> <!-- vblex-->
-            <clip pos="1" side="tl" part="moodtense"/> <!-- pres -->
+            <clip pos="1" side="tl" part="moodtense"/> <!-- pri -->
             <clip pos="1" side="sl" part="person"/>
             <clip pos="1" side="sl" part="a_nbr"/>
           </lu>
@@ -681,7 +685,7 @@
           <lu>
             <clip pos="1" side="tl" part="lem"/> <!-- know --> 
             <clip pos="1" side="tl" part="a_verb"/> <!-- vblex -->
-            <clip pos="1" side="tl" part="moodtense"/> <!-- pres -->
+            <clip pos="1" side="tl" part="moodtense"/> <!-- pri -->
             <clip pos="1" side="sl" part="person"/>
             <clip pos="1" side="sl" part="a_nbr"/>
           </lu>
