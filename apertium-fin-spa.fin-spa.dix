@@ -234,7 +234,11 @@
     <e><p><l>halu<s n="n"/></l><r>querido<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>voi<s n="n"/></l><r>mantequila<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>aika<s n="n"/></l><r>tiempo<s n="n"/><s n="f"/></r></p></e>
-    
+    <e><p><l>olut<s n="n"/></l><r>cerveza<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>pullo<s n="n"/></l><r>botella<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>lasi<s n="n"/></l><r>caña<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>tuoppi<s n="n"/></l><r>copa<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>kannu<s n="n"/></l><r>jarra<s n="n"/><s n="f"/></r></p></e>
 
     <!-- verbs-->
 
@@ -387,6 +391,12 @@
     <e><p><l>aika<s n="adv"/></l><r>vez<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
 
     <!-- interjections -->
+
+    <e><p><l>hei<s n="ij"/></l><r>hola<s n="ij"/></r></p></e>
+    <e r="RL"><p><l>hei<s n="ij"/></l><r>bueno<s n="adj"/><s n="f"/><s n="pl"/></r></p></e>
+    <e><p><l>kiitos<s n="ij"/></l><r>gracia<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+    <e><p><l>ole<b/>hyvä<s n="ij"/></l><r>por<b/>favor<s n="ij"/></r></p></e>
+    <e r="RL"><p><l>kiitos<s n="ij"/></l><r>por<b/>favor<s n="ij"/></r></p></e>
 
 
     <!-- pronouns -->
