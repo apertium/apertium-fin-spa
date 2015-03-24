@@ -239,6 +239,8 @@
     <e><p><l>lasi<s n="n"/></l><r>caña<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>tuoppi<s n="n"/></l><r>copa<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>kannu<s n="n"/></l><r>jarra<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>pussi<s n="n"/></l><r>bolsa<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>juusto<s n="n"/></l><r>queso<s n="n"/><s n="m"/></r></p></e>
 
     <!-- verbs-->
 
@@ -397,6 +399,9 @@
     <e><p><l>kiitos<s n="ij"/></l><r>gracia<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
     <e><p><l>ole<b/>hyvä<s n="ij"/></l><r>por<b/>favor<s n="ij"/></r></p></e>
     <e r="RL"><p><l>kiitos<s n="ij"/></l><r>por<b/>favor<s n="ij"/></r></p></e>
+    <e><p><l>näkemiin<s n="ij"/></l><r>hasta<b/>mañana<s n="adv"/></r></p></e>
+    <e><p><l>näkemiin<s n="ij"/></l><r>hasta<b/>luego<s n="ij"/></r></p></e>
+    <e><p><l>näkemiin<s n="ij"/></l><r>adiós<s n="ij"/></r></p></e>
 
 
     <!-- pronouns -->
@@ -410,6 +415,8 @@
     <e><p><l>miksi<s n="prn"/></l><r>qué<s n="prn"/><s n="itg"/><s n="mf"/><s n="sg"/></r></p></e>
     <e><p><l>muu<s n="prn"/></l><r>otro<s n="prn"/><s n="tn"/><s n="f"/></r></p></e>
     <e><p><l>muu<s n="prn"/></l><r>otro<s n="prn"/><s n="tn"/><s n="m"/></r></p></e>
+    <e><p><l>yksi<s n="prn"/></l><r>uno<s n="prn"/><s n="tn"/><s n="m"/></r></p></e>
+    <e><p><l>yksi<s n="prn"/></l><r>una<s n="prn"/><s n="tn"/><s n="m"/></r></p></e>
 
     <!-- persons -->
 
