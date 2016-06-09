@@ -34,3 +34,4 @@ AP_CHECK_LING([2], [apertium-spa])
 
 AC_OUTPUT([Makefile])
 
+AC_MSG_WARN([This package might be developed at httpS://github.com/flammie/apertium-fin-spa now])
