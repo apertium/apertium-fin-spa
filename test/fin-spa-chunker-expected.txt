@@ -1,0 +1,10 @@
+[--yOmO9eF1XT#0] ^default<default>{^@♥<sym><cmp>$}$ ^default<default>{^@ψ-karoteeni<n>$}$ ^n<SN><ill><px2pl>{^@tar<n><pl>$}$ ^default<default>{^@han<enc>$}$ ^default<default>{^efectivamente<adv>$}$
+[/--yOmO9eF1XT]
+[QkYTh8cgPKtG#0] ^n<nom>{^@UAK<n><sg>$}$
+[/QkYTh8cgPKtG]
+[RKNLYLqoFMzh#0] ^adv<ADV>{^@-eleisesti<adv>$}$ ^default<default>{^@han<enc>$}$ ^default<default>{^@kaan<enc>$}$
+[/RKNLYLqoFMzh]
+[rD7V2BsJMk5y#0] ^default<default>{^@¥<sym><sg><nom>$}$
+[/rD7V2BsJMk5y]
+[tRCzVOAPtAMy#0] ^n<nom><px2pl>{^@Äykkyrilouhi<np><pl>$}$ ^default<default>{^@han<enc>$}$ ^default<default>{^@ko<qst>$}$
+[/tRCzVOAPtAMy]

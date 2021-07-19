@@ -1,0 +1,14 @@
+[0fKd6HWW7QI9#0] ^unknown<unknown>{^*ícuiusoearle$}$
+[/0fKd6HWW7QI9]
+[28ZRHGLnmpHE#0] ^default<default>{^ja<cnjcoo>$}$ ^unknown<unknown>{^*sagleats$}$
+[/28ZRHGLnmpHE]
+[Muuxq8wcYBzr#0] ^default<default>{^(<lpar>$}$
+[/Muuxq8wcYBzr]
+[Qh6MaNhtaH_0#0] ^default<default>{^@68<adj><ord><f><pl>$}$
+[/Qh6MaNhtaH_0]
+[VF74NpUftsJ-#0] ^default<default>{^@8°<num>$}$
+[/VF74NpUftsJ-]
+[d43pEeEck2mZ#0] ^unknown<unknown>{^*jvlrmddasa$}$
+[/d43pEeEck2mZ]
+[tJNYlMjOFr3m#0] ^sent<SENT>{^@…<sent>$}$
+[/tJNYlMjOFr3m]

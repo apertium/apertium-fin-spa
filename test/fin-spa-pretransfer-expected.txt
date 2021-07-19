@@ -1,0 +1,10 @@
+[--yOmO9eF1XT#0] ^♥<sym><cmp>$ ^ψ-karoteeni<n>$ ^tar<n><pl><ill><use_archaic><px2pl>$ ^han<enc>$ ^pa<enc>$
+[/--yOmO9eF1XT]
+[QkYTh8cgPKtG#0] ^UAK<n><acr><sg><nom>$
+[/QkYTh8cgPKtG]
+[RKNLYLqoFMzh#0] ^-eleisesti<adv>$ ^han<enc>$ ^kaan<enc>$
+[/RKNLYLqoFMzh]
+[rD7V2BsJMk5y#0] ^¥<sym><sg><nom>$
+[/rD7V2BsJMk5y]
+[tRCzVOAPtAMy#0] ^Äykkyrilouhi<np><top><pl><nom><px2pl>$ ^han<enc>$ ^ko<qst>$
+[/tRCzVOAPtAMy]

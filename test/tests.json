@@ -1,0 +1,10 @@
+{
+    "fin-spa": {
+        "input": "fin-spa-input.txt",
+        "mode": "fin-spa"
+    },
+    "spa-fin": {
+        "input": "spa-fin-input.txt",
+        "mode": "spa-fin"
+    }
+}

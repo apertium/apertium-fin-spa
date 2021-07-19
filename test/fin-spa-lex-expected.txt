@@ -1,0 +1,10 @@
+[--yOmO9eF1XT#0] ^♥<sym><cmp>/@♥<sym><cmp>$ ^ψ-karoteeni<n>/@ψ-karoteeni<n>$ ^tar<n><pl><ill><use_archaic><px2pl>/@tar<n><pl><ill><use_archaic><px2pl>$ ^han<enc>/@han<enc>$ ^pa<enc>/efectivamente<adv>$
+[/--yOmO9eF1XT]
+[QkYTh8cgPKtG#0] ^UAK<n><acr><sg><nom>/@UAK<n><acr><sg><nom>$
+[/QkYTh8cgPKtG]
+[RKNLYLqoFMzh#0] ^-eleisesti<adv>/@-eleisesti<adv>$ ^han<enc>/@han<enc>$ ^kaan<enc>/@kaan<enc>$
+[/RKNLYLqoFMzh]
+[rD7V2BsJMk5y#0] ^¥<sym><sg><nom>/@¥<sym><sg><nom>$
+[/rD7V2BsJMk5y]
+[tRCzVOAPtAMy#0] ^Äykkyrilouhi<np><top><pl><nom><px2pl>/@Äykkyrilouhi<np><top><pl><nom><px2pl>$ ^han<enc>/@han<enc>$ ^ko<qst>/@ko<qst>$
+[/tRCzVOAPtAMy]
