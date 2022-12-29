@@ -4,8 +4,10 @@
 
 number = (ND sg) sg pl sp ND;
 gender = (GD m) m f mf GD;
+case = (CC nom) nom gen par ine ela ill ade abl all tra ess com ;
 det_type = def ind dem itg;
 tense = pres past fut ifi pri fti;
+numtype = (NT card) card ord NT ;
 
 !!!!!!!!!!!!!!!
 !! OUTPUT PATTERNS
@@ -15,6 +17,10 @@ n: _.gender.number;
 adj: _.gender.number;
 det_default: _.det_type;
 det_def: _.det_type.number;
+num: _.numtype.number.case;
+
+! 
+NUM: _;
 
 NP: _.number;
 
@@ -41,6 +47,9 @@ det: (if (1.det_type = def or 1.det_type = ind)
 ! Input:  ^ראש<n><m><sg>/hovud<n><nt><sg>$ ^גדול<adj><m><sg>/stor<adj><nt><sg>$
 ! Output: ^stor<adj><nt><sg>$ ^hovud<n><nt><sg>$
 ! NP -> n.$number adj { 2[gender=1.gender, number=1.number] _ 1 } ;
+
+
+NUM -> num { 1 } ;
 
 ! Resources:
 ! https://wiki.apertium.org/wiki/Apertium-recursive
