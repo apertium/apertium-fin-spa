@@ -46,12 +46,12 @@
       </program>
 
 
-      <program name="cg-proc -w">
+      <program name="cg-proc -w1n">
         <file name="spa-fin.rlx.bin"/>
       </program>
-      <program name="apertium-tagger -g $2">
+      <!-- <program name="apertium-tagger -g $2">
         <file name="spa-fin.prob"/>
-      </program>
+      </program>-->
 
       <program name="apertium-pretransfer"/>
       <program name="lt-proc -b">

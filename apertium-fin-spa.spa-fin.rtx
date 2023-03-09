@@ -6,38 +6,50 @@ number = (ND sg) sg pl sp ND;
 gender = (GD m) m f mf GD;
 case = (CC nom) nom gen par ine ela ill ade abl all tra ess com ;
 det_type = def ind dem itg;
-tense = pres past fut ifi pri fti;
+tensemood = pres past fut ifi pri fti;
 numtype = (NT card) card ord NT ;
+nptype = ant top cog al ;
+comparison = (CO pst) pst cmp sup ;
+person = p1 p2 p3 ;
+voice = (VO actv) actv pasv ; 
 
 !!!!!!!!!!!!!!!
 !! OUTPUT PATTERNS
 !!!!!!!!!!!!!!!
 
-n: _.gender.number;
-adj: _.gender.number;
-det_default: _.det_type;
-det_def: _.det_type.number;
+vblex: _.voice.tensemood.person.number;
+vbmod: _.voice.tensemood.person.number;
+vbser: _.voice.tensemood.person.number;
+vbhaver: _.voice.tensemood.person.number;
+np: _.nptype.gender.number.case;
+n: _.number.case;
+det: _.number.case;
+adj: _.comparison.number.case;
 num: _.numtype.number.case;
+pr: _;
+post: _;
 
-! 
+! words
+V: _;
 NUM: _;
+N: _;
+A: _;
+DET: _;
 
+! phrases
 NP: _.number;
 
 !!!!!!!!!!!!!!!
 !! TAG-REWRITE RULES
 !!!!!!!!!!!!!!!
 
-tense > tense : ifi past, pri pres, fti fut;
+tensemood > tensemood : ifi past, fti fut;
 
 !!!!!!!!!!!!!!!
 !! MACROS
 !!!!!!!!!!!!!!!
 
-det: (if (1.det_type = def or 1.det_type = ind)
-         1(det_def)
-      else
-         1(det_default));
+
 
 !!!!!!!!!!!!!!!
 !! REDUCTION RULES
@@ -48,9 +60,18 @@ det: (if (1.det_type = def or 1.det_type = ind)
 ! Output: ^stor<adj><nt><sg>$ ^hovud<n><nt><sg>$
 ! NP -> n.$number adj { 2[gender=1.gender, number=1.number] _ 1 } ;
 
-
+NP -> det n { 2 } |
+      1: de@pr n { 2[case=par] _  } |
+      pr n { 2[case=gen] _ 1 } ;
+A -> adj { 1 } ;
+N -> n { 1 } |
+     np { 1 } ;
 NUM -> num { 1 } ;
-
+V -> vblex { 1 } |
+     vbmod { 1 } |
+     vbser { 1 } |
+     vbhaver { 1 } ;
+DET -> det { 1 } ;
 ! Resources:
 ! https://wiki.apertium.org/wiki/Apertium-recursive
 ! https://wiki.apertium.org/wiki/Apertium-recursive/Formalism
