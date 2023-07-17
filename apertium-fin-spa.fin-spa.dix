@@ -102,7 +102,7 @@
 
     <!-- nums-->
 
-    <e><p><l>yksi<s n="num"/></l><r>uno<s n="num"/></r></p></e>
+    <e><p><l>yksi<s n="num"/><s n="sg"/></l><r>uno<s n="num"/><s n="f"/><s n="sp"/></r></p></e>
     <e><p><l>kaksi<s n="num"/><s n="card"/><s n="sg"/></l><r>dos<s n="num"/><s n="mf"/><s n="sp"/></r></p></e>
     <e><p><l>kolme<s n="num"/><s n="card"/><s n="sg"/></l><r>tres<s n="num"/><s n="mf"/><s n="sp"/></r></p></e>
     <e><p><l>neljä<s n="num"/><s n="card"/><s n="sg"/></l><r>cuatro<s n="num"/><s n="mf"/><s n="sp"/></r></p></e>
@@ -269,7 +269,7 @@
 
     <e><p><l>täytyä<s n="vaux"/></l><r>deber<s n="vbmod"/></r></p></e>
     <e><p><l>voida<s n="vaux"/></l><r>poder<s n="vbmod"/></r></p></e>
-    <e><p><l>osata<s n="vblex"/></l><r>poder<s n="vbmod"/></r></p></e>
+    <e><p><l>osata<s n="vaux"/></l><r>poder<s n="vbmod"/></r></p></e>
     <e><p><l>haluta<s n="vblex"/></l><r>querer<s n="vbmod"/></r></p></e>
     <e><p><l>yrittää<s n="vblex"/></l><r>tratar<s n="vblex"/></r></p></e>
     <e><p><l>pystyä<s n="vblex"/></l><r>lograr<s n="vblex"/></r></p></e>
@@ -282,12 +282,11 @@
     <e><p><l>kävellä<s n="vblex"/></l><r>acercar<s n="vblex"/></r></p></e>
     <e><p><l>kertoa<s n="vblex"/></l><r>querer<s n="vblex"/></r></p></e>
     <e><p><l>piiloutua<s n="vblex"/></l><r>esconder<s n="vblex"/></r></p></e>
-    <e><p><l>olla<s n="vblex"/></l><r>tener<s n="vblex"/></r></p></e>
+    <e><p><l>omistaa<s n="vblex"/></l><r>tener<s n="vblex"/></r></p></e>
     <e><p><l>olla<s n="vblex"/></l><r>estar<s n="vblex"/></r></p></e>
-    <e><p><l>tykätä<s n="vblex"/></l><r>gustar<s n="vblex"/></r></p></e>
+    <e c="liker is object"><p><l>viihdyttää<s n="vblex"/></l><r>gustar<s n="vblex"/></r></p></e>
     <e><p><l>leikkiä<s n="vblex"/></l><r>jugar<s n="vblex"/></r></p></e>
-    <e><p><l>pitää<s n="vblex"/></l><r>encantar<s n="vblex"/></r></p></e>
-    <e><p><l>täytyä<s n="vblex"/></l><r>encantar<s n="vblex"/></r></p></e>
+    <e c="liker is object"><p><l>viihdyttää<s n="vblex"/></l><r>encantar<s n="vblex"/></r></p></e>
     <e><p><l>nukkua<s n="vblex"/></l><r>dormir<s n="vblex"/></r></p></e>
     <e><p><l>katsoa<s n="vblex"/></l><r>mirar<s n="vblex"/></r></p></e>
     <e><p><l>katsoa<s n="vblex"/></l><r>observar<s n="vblex"/></r></p></e>
@@ -347,7 +346,7 @@
     <e><p><l>sisällä<s n="post"/></l><r>dentro<b/>de<s n="pr"/></r></p></e>
     <e><p><l>sisällä<s n="post"/></l><r>en<s n="pr"/></r></p></e>
     <e><p><l>kohti<s n="post"/></l><r>a<s n="pr"/></r></p></e>
-    <e><p><l>pois<s n="post"/></l><r>de<s n="pr"/></r></p></e>
+    <e><p><l>luota<s n="post"/></l><r>de<s n="pr"/></r></p></e>
     <e><p><l>edessä<s n="post"/></l><r>delante<s n="adv"/></r></p></e>
     <e><p><l>kanssa<s n="post"/></l><r>con<s n="pr"/></r></p></e>
     <e><p><l>ulos<s n="adv"/></l><r>por<s n="pr"/></r></p></e>
@@ -363,14 +362,10 @@
     <e><p><l>ja<s n="cnjcoo"/></l><r>y<s n="cnjcoo"/></r></p></e>
     <e><p><l>tai<s n="cnjcoo"/></l><r>o<s n="cnjcoo"/></r></p></e>
     <e><p><l>mutta<s n="cnjcoo"/></l><r>pero<s n="cnjcoo"/></r></p></e>
-    <e><p><l>kun<s n="cnjadv"/></l><r>cuando<s n="rel"/><s n="adv"/></r></p></e>
     <e><p><l>kun<s n="cnjsub"/></l><r>cuando<s n="rel"/><s n="adv"/></r></p></e>
-    <e><p><l>että<s n="cnjadv"/></l><r>que<s n="cnjsub"/></r></p></e>
     <e><p><l>että<s n="cnjsub"/></l><r>que<s n="cnjsub"/></r></p></e>
-    <e><p><l>vaikka<s n="cnjsub"/></l><r>aunque<s n="cnjsub"/></r></p></e>
-    <e><p><l>vaikka<s n="cnjadv"/></l><r>aunque<s n="cnjadv"/></r></p></e>
-    <e><p><l>sitten<s n="cnjsub"/></l><r>entonces<s n="cnjsub"/></r></p></e>
-    <e><p><l>mutta<s n="cnjadv"/></l><r>así<b/>que<s n="cnjadv"/></r></p></e>
+    <e><p><l>vaikka<s n="cnjsub"/></l><r>aunque<s n="cnjadv"/></r></p></e>
+    <e><p><l>mutta<s n="cnjsub"/></l><r>así<b/>que<s n="cnjadv"/></r></p></e>
 
 
     <!-- adverbs -->
@@ -448,7 +443,7 @@
     <!-- all sorts of stuff -->
 
 
-    <e><p><l>itse<s n="prn"/></l><r>se<s n="prn"/></r></p></e>
+    <e><p><l>itse<s n="prn"/><s n="sg"/></l><r>se<s n="prn"/><s n="ref"/><s n="ref"/><s n="p3"/><s n="sp"/></r></p></e>
     <e><p><l>niin<s n="prn"/></l><r>eso<s n="prn"/><s n="tn"/><s n="nt"/></r></p></e>
     <e><p><l>jokin<s n="prn"/></l><r>algo<s n="prn"/><s n="tn"/><s n="nt"/></r></p></e>
     <e><p><l>molemmat<s n="prn"/></l><r>ambos<s n="prn"/><s n="tn"/><s n="nt"/></r></p></e>
@@ -460,16 +455,21 @@
     <e><p><l>muu<s n="prn"/></l><r>otro<s n="prn"/><s n="tn"/><s n="m"/></r></p></e>
     <e><p><l>yksi<s n="prn"/></l><r>uno<s n="prn"/><s n="tn"/><s n="m"/></r></p></e>
     <e><p><l>yksi<s n="prn"/></l><r>una<s n="prn"/><s n="tn"/><s n="m"/></r></p></e>
-    <e><p><l>se<s n="prn"/></l><r>le<s n="prn"/></r></p></e>
+    <e><p><l>se<s n="prn"/></l><r>le<s n="prn"/><s n="pro"/><s n="p3"/><s n="mf"/><s n="sg"/></r></p></e>
+    <e><p><l>ne<s n="prn"/></l><r>le<s n="prn"/><s n="pro"/><s n="p3"/><s n="mf"/><s n="pl"/></r></p></e>
 
     <!-- persons -->
 
     <e><p><l>minä<s n="prn"/><s n="pers"/><s n="p1"/></l><r>yo<s n="prn"/><s n="tn"/><s n="p1"/><s n="mf"/></r></p></e>
     <e><p><l>sinä<s n="prn"/><s n="pers"/><s n="p2"/></l><r>tú<s n="prn"/><s n="tn"/><s n="p2"/><s n="mf"/></r></p></e>
-    <e><p><l>hän<s n="prn"/><s n="pers"/><s n="p3"/></l><r>él<s n="prn"/><s n="tn"/><s n="p3"/><s n="m"/></r></p></e>
-    <e><p><l>hän<s n="prn"/><s n="pers"/><s n="p3"/></l><r>él<s n="prn"/><s n="tn"/><s n="p3"/><s n="f"/></r></p></e>
-    <e><p><l>he<s n="prn"/><s n="pers"/><s n="p3"/></l><r>él<s n="prn"/><s n="tn"/><s n="p3"/><s n="m"/></r></p></e>
-    <e><p><l>he<s n="prn"/><s n="pers"/><s n="p3"/></l><r>él<s n="prn"/><s n="tn"/><s n="p3"/><s n="f"/></r></p></e>
+    <e><p><l>hän<s n="prn"/><s n="pers"/><s n="p3"/></l>
+        <r>él<s n="prn"/><s n="tn"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
+    <e><p><l>hän<s n="prn"/><s n="pers"/><s n="p3"/></l>
+        <r>él<s n="prn"/><s n="tn"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
+    <e><p><l>he<s n="prn"/><s n="pers"/><s n="p3"/></l>
+        <r>él<s n="prn"/><s n="tn"/><s n="p3"/><s n="m"/><s n="pl"/></r></p></e>
+    <e><p><l>he<s n="prn"/><s n="pers"/><s n="p3"/></l>
+        <r>él<s n="prn"/><s n="tn"/><s n="p3"/><s n="f"/><s n="pl"/></r></p></e>
 
     <e r="RL"><p><l>minä<s n="prn"/><s n="pers"/><s n="p1"/></l><r>me<s n="prn"/><s n="enc"/><s n="p1"/><s n="mf"/></r></p></e>
     <e r="RL"><p><l>sinä<s n="prn"/><s n="pers"/><s n="p2"/></l><r>te<s n="prn"/><s n="pro"/><s n="p2"/><s n="mf"/></r></p></e>
@@ -496,42 +496,45 @@
     <e><p><l>pa<s n="enc"/></l><r>efectivamente<s n="adv"/></r></p></e>
 
     <e><p><l>yksi<s n="det"/></l><r>uno<s n="det"/><s n="ind"/></r></p></e>
-    <e><p><l>se<s n="det"/></l><r>el<s n="det"/><s n="def"/></r></p></e>
+    <e><p><l>se<s n="det"/></l><r>el<s n="det"/><s n="def"/><s n="m"/><s n="sg"/></r></p></e>
+    <e><p><l>se<s n="det"/></l><r>el<s n="det"/><s n="def"/><s n="f"/><s n="sg"/></r></p></e>
+    <e><p><l>ne<s n="det"/></l><r>el<s n="det"/><s n="def"/><s n="m"/><s n="pl"/></r></p></e>
+    <e><p><l>ne<s n="det"/></l><r>el<s n="det"/><s n="def"/><s n="f"/><s n="pl"/></r></p></e>
     <e><p><l>se<s n="det"/></l><r>lo<s n="detnt"/></r></p></e>
 
     <!-- Раздел: Имя Существительное -->
 
-    <e><p><l>'<s n="apos"/></l><r>'<s n="apos"/></r></p></e>
+    <e><p><l>'<s n="punct"/></l><r>'<s n="apos"/></r></p></e>
     <e><p><l>,<s n="punct"/></l><r>,<s n="cm"/></r></p></e>
-    <e><p><l>-<s n="guio"/></l><r>-<s n="guio"/></r></p></e>
-    <e><p><l>--<s n="guio"/></l><r>–<s n="guio"/></r></p></e>
-    <e><p><l>–<s n="guio"/></l><r>-<s n="guio"/></r></p></e>
-    <e><p><l>—<s n="guio"/></l><r>—<s n="guio"/></r></p></e>
-    <e><p><l>(<s n="lpar"/></l><r>(<s n="lpar"/></r></p></e>
-    <e><p><l>[<s n="lpar"/></l><r>[<s n="lpar"/></r></p></e>
-    <e><p><l>"<s n="lquot"/></l><r>"<s n="lquot"/></r></p></e>
-    <e><p><l>“<s n="lquot"/></l><r>“<s n="lquot"/></r></p></e>
-    <e><p><l>«<s n="lquot"/></l><r>«<s n="lquot"/></r></p></e>
-    <e><p><l>»<s n="lquot"/></l><r>«<s n="lquot"/></r></p></e>
-    <e><p><l>)<s n="rpar"/></l><r>)<s n="rpar"/></r></p></e>
-    <e><p><l>]<s n="rpar"/></l><r>]<s n="rpar"/></r></p></e>
-    <e><p><l>"<s n="rquot"/></l><r>"<s n="rquot"/></r></p></e>
-    <e><p><l>”<s n="rquot"/></l><r>”<s n="rquot"/></r></p></e>
-    <e><p><l>»<s n="rquot"/></l><r>»<s n="rquot"/></r></p></e>
-    <e><p><l>(<s n="sent"/>in</l><r>(<s n="lpar"/></r></p></e>
-    <e><p><l>)<s n="sent"/></l><r>)<s n="rpar"/></r></p></e>
-    <e><p><l>_<s n="sent"/></l><r>_<s n="sent"/></r></p></e>
-    <e><p><l>:<s n="sent"/></l><r>:<s n="sent"/></r></p></e>
-    <e><p><l>;<s n="sent"/></l><r>;<s n="sent"/></r></p></e>
+    <e><p><l>-<s n="punct"/></l><r>-<s n="guio"/></r></p></e>
+    <e><p><l>--<s n="punct"/></l><r>–<s n="guio"/></r></p></e>
+    <e><p><l>–<s n="punct"/></l><r>-<s n="guio"/></r></p></e>
+    <e><p><l>—<s n="punct"/></l><r>—<s n="guio"/></r></p></e>
+    <e><p><l>(<s n="punct"/></l><r>(<s n="lpar"/></r></p></e>
+    <e><p><l>[<s n="punct"/></l><r>[<s n="lpar"/></r></p></e>
+    <e><p><l>"<s n="punct"/></l><r>"<s n="lquot"/></r></p></e>
+    <e><p><l>“<s n="punct"/></l><r>“<s n="lquot"/></r></p></e>
+    <e><p><l>«<s n="punct"/></l><r>«<s n="lquot"/></r></p></e>
+    <e><p><l>»<s n="punct"/></l><r>«<s n="lquot"/></r></p></e>
+    <e><p><l>)<s n="punct"/></l><r>)<s n="rpar"/></r></p></e>
+    <e><p><l>]<s n="punct"/></l><r>]<s n="rpar"/></r></p></e>
+    <e><p><l>"<s n="punct"/></l><r>"<s n="rquot"/></r></p></e>
+    <e><p><l>”<s n="punct"/></l><r>”<s n="rquot"/></r></p></e>
+    <e><p><l>»<s n="punct"/></l><r>»<s n="rquot"/></r></p></e>
+    <e><p><l>(<s n="punct"/>in</l><r>(<s n="lpar"/></r></p></e>
+    <e><p><l>)<s n="punct"/></l><r>)<s n="rpar"/></r></p></e>
+    <e><p><l>_<s n="punct"/></l><r>_<s n="sent"/></r></p></e>
+    <e><p><l>:<s n="punct"/></l><r>:<s n="sent"/></r></p></e>
+    <e><p><l>;<s n="punct"/></l><r>;<s n="sent"/></r></p></e>
     <e><p><l>¡<s n="punct"/></l><r>¡<s n="lquest"/></r></p></e>
     <e><p><l>!<s n="punct"/></l><r>!<s n="sent"/></r></p></e>
     <e><p><l>?<s n="punct"/></l><r>?<s n="sent"/></r></p></e>
     <e><p><l>¿<s n="punct"/></l><r>¿<s n="lquest"/></r></p></e>
     <e><p><l>.<s n="punct"/></l><r>.<s n="sent"/></r></p></e>
-    <e><p><l>..<s n="sent"/></l><r>..<s n="sent"/></r></p></e>
-    <e><p><l>...<s n="sent"/></l><r>...<s n="sent"/></r></p></e>
-    <e><p><l>#<s n="sent"/></l><r>#<s n="sent"/></r></p></e>
-    <e><p><l>%<s n="sent"/></l><r>%<s n="sent"/></r></p></e>
+    <e><p><l>..<s n="punct"/></l><r>..<s n="sent"/></r></p></e>
+    <e><p><l>...<s n="punct"/></l><r>...<s n="sent"/></r></p></e>
+    <e><p><l>#<s n="punct"/></l><r>#<s n="sent"/></r></p></e>
+    <e><p><l>%<s n="punct"/></l><r>%<s n="sent"/></r></p></e>
 
     <!-- digit loop -->
     <e><re>[№%]?[0-9]+([.,][0-9]+)*[.,]*</re><p><l><s n="num"/></l><r><s n="num"/></r></p></e>
