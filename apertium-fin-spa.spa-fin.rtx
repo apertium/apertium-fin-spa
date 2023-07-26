@@ -8,7 +8,7 @@ case = (CC nom) nom gen par ine ela ill ade abl all tra ess com ;
 det_type = def ind dem itg;
 tensemood = pres past fut ifi pri fti cni;
 numtype = (NT card) card ord NT ;
-prntype = pers dem ;
+prntype = pers dem qu  ;
 nptype = ant top cog al ;
 comparison = (CO pst) pst cmp sup ;
 person = p1 p2 p3 ;
@@ -31,10 +31,10 @@ vbser: _.voice.tensemood.person.number.neg;
 vbhaver: _.voice.tensemood.person.number.neg;
 np: _.nptype.gender.number.case;
 n: _.number.case;
-det: _.number.case;
+det: _.prntype.person.number.case;
 adj: _.comparison.number.case;
 num: _.numtype.number.case;
-prn: _.number.case;
+prn: _.prntype.person.number.case;
 pr: _;
 post: _;
 
@@ -82,7 +82,8 @@ VP -> no@adv vblex { ei@vaux.neg.actv.[2.person].[2.number] _
                          number=(if (2.tensemood/tl=ifi) 2.number else "")] } |
       no@adv vbser { ei@vaux.neg.actv.[2.person].[2.number] _
                      2(verb_conneg)[neg=conneg,
-                          number=(if (2.tensemood/tl=ifi) 2.number else "")] } ;
+                          number=(if (2.tensemood/tl=ifi) 2.number else "")] } |
+       prn.pro vblex { 2 } ;
 NUMP -> num n { 1 _ 2[case=(if (2.lem/sl incl ones) nom else par),
                       number=sg] } ;
 NP -> det n { 2 } |
@@ -90,9 +91,11 @@ NP -> det n { 2 } |
       de@pr np { 2[case=par] } |
       1: de@pr n { 2[case=par]  } |
       1: a@pr n { 2[case=par] } |
+      a@pr det n { 3[case=ill] } |
+      en@pr det n { 3[case=ine] } |
       pr det n { 3[case=gen] _ 1 } |
       pr n { 2[case=gen] _ 1 } ;
-A -> adj { 1 } ;
+A -> adj { 1[number=(if (1.number = sp) sg else 1.number)] } ;
 N -> n { 1 } |
      np { 1 } ;
 NUM -> num { 1 } ;

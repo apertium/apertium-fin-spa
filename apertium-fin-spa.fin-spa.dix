@@ -50,6 +50,7 @@
     <sdef n="p1" 	c="person one/obob"/>
     <sdef n="pers" 	c="e"/>
     <sdef n="dem" 	c="e"/>
+    <sdef n="qu" 	c="e"/>
     <sdef n="reflex" 	c="e"/>
     <sdef n="rel" 	c="aa"/>
     <sdef n="m" 	c="pojista"/>
@@ -221,7 +222,7 @@
     <e><p><l>poika<s n="n"/></l><r>niño<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>vuosi<s n="n"/></l><r>año<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>tyttö<s n="n"/></l><r>niño<s n="n"/><s n="f"/></r></p></e>
-    <e><p><l>tyttö<s n="n"/></l><r>hermana<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>sisko<s n="n"/></l><r>hermana<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>koira<s n="n"/></l><r>perro<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>kissa<s n="n"/></l><r>gato<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>lapsi<s n="n"/></l><r>niño<s n="n"/><s n="m"/></r></p></e>
@@ -451,12 +452,12 @@
     <e><p><l>mikään<s n="prn"/></l><r>nada<s n="prn"/><s n="tn"/><s n="nt"/></r></p></e>
     <e><p><l>mikään<s n="prn"/></l><r>ninguno<s n="prn"/><s n="tn"/></r></p></e>
     <e><p><l>miksi<s n="prn"/></l><r>qué<s n="prn"/><s n="itg"/><s n="mf"/><s n="sg"/></r></p></e>
-    <e><p><l>muu<s n="prn"/></l><r>otro<s n="prn"/><s n="tn"/><s n="f"/></r></p></e>
-    <e><p><l>muu<s n="prn"/></l><r>otro<s n="prn"/><s n="tn"/><s n="m"/></r></p></e>
+    <e><p><l>muu<s n="prn"/><s n="qu"/></l><r>otro<s n="prn"/><s n="tn"/><s n="f"/></r></p></e>
+    <e><p><l>muu<s n="prn"/><s n="qu"/></l><r>otro<s n="prn"/><s n="tn"/><s n="m"/></r></p></e>
     <e><p><l>yksi<s n="prn"/></l><r>uno<s n="prn"/><s n="tn"/><s n="m"/></r></p></e>
     <e><p><l>yksi<s n="prn"/></l><r>una<s n="prn"/><s n="tn"/><s n="m"/></r></p></e>
-    <e><p><l>se<s n="prn"/></l><r>le<s n="prn"/><s n="pro"/><s n="p3"/><s n="mf"/><s n="sg"/></r></p></e>
-    <e><p><l>ne<s n="prn"/></l><r>le<s n="prn"/><s n="pro"/><s n="p3"/><s n="mf"/><s n="pl"/></r></p></e>
+    <e><p><l>se<s n="prn"/><s n="dem"/></l><r>le<s n="prn"/><s n="pro"/><s n="p3"/><s n="mf"/><s n="sg"/></r></p></e>
+    <e><p><l>ne<s n="prn"/><s n="dem"/></l><r>le<s n="prn"/><s n="pro"/><s n="p3"/><s n="mf"/><s n="pl"/></r></p></e>
 
     <!-- persons -->
 
@@ -498,8 +499,8 @@
     <e><p><l>yksi<s n="det"/></l><r>uno<s n="det"/><s n="ind"/></r></p></e>
     <e><p><l>se<s n="det"/></l><r>el<s n="det"/><s n="def"/><s n="m"/><s n="sg"/></r></p></e>
     <e><p><l>se<s n="det"/></l><r>el<s n="det"/><s n="def"/><s n="f"/><s n="sg"/></r></p></e>
-    <e><p><l>ne<s n="det"/></l><r>el<s n="det"/><s n="def"/><s n="m"/><s n="pl"/></r></p></e>
-    <e><p><l>ne<s n="det"/></l><r>el<s n="det"/><s n="def"/><s n="f"/><s n="pl"/></r></p></e>
+    <e><p><l>ne<s n="prn"/><s n="dem"/></l><r>el<s n="det"/><s n="def"/><s n="m"/><s n="pl"/></r></p></e>
+    <e><p><l>ne<s n="prn"/><s n="dem"/></l><r>el<s n="det"/><s n="def"/><s n="f"/><s n="pl"/></r></p></e>
     <e><p><l>se<s n="det"/></l><r>lo<s n="detnt"/></r></p></e>
 
     <!-- Раздел: Имя Существительное -->
